@@ -57,7 +57,7 @@ hi s_comp_sep background: -moz-linear-gradient(60deg, #2aa198, #fdf6e3) !importa
 " ----------------------------------------------------------------------
 hi -l=s_base00,s_base2_back StatusLineNormal
 hi -l=s_base3,s_orange_back StatusLineBroken
-hi -l=s_base3,s_blue_back StatusLineSecure
+hi -l=s_base3,s_green_back StatusLineSecure
 hi -l=s_base3,s_violet_back StatusLineExtended
 hi -l=s_base3,s_magenta_back StatusWarningMsg
 " Make sure the question output looks nice between each status color
