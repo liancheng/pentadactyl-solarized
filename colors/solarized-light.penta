@@ -88,9 +88,9 @@ hi -l=s_base3,s_magenta_back CmdErrorMsg
 " Hints                                                             {{{1
 " ----------------------------------------------------------------------
 " The hint background is s_base3, the outline is s_base03
-hi -l=s_base03 Hint -a outline: 1px solid rgba(0, 43, 54, .5); background: rgba(253, 246, 227, .8);
-hi -l=s_base3,s_blue_back HintElem
-hi -l=s_base3,s_magenta_back HintActive
+hi -l=s_base03 Hint -a outline: 1px solid rgba(0, 43, 54, 1); background: rgba(253, 246, 227, 1); font: bold small "Monaco", monospace !important; border-radius: 3; padding: 1px 3px 0px 3px;
+hi -l= HintElem
+hi -l=s_base3,s_magenta_back HintActive -a 
 
 " Other                                                             {{{1
 " ----------------------------------------------------------------------
@@ -125,6 +125,7 @@ hi -l=s_base3 TabIconNumber -a text-shadow: #002b36 -1px 0 1px, #002b36 0 1px 1p
 hi -l=s_blue Button -a
 hi -l=s_blue Button::after -a
 hi -l=s_blue Button::before -a
+hi FontFixed font-family: Monaco; font-size: small;
 
 
 " Help                                                              {{{1
